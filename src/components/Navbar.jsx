@@ -39,10 +39,10 @@ function Navbar() {
             <div className={`nav_visible ${isMenuOpen ? 'container_nav_item' : ''}`}>
                 {/* <Router> */}
                     <ul className="nav">
-                        <li><Link to="/" >Inicio</Link></li>
-                        <li><Link to="/Productos" >Productos</Link></li>
-                        <li><Link to="/Ofertas" >Ofertas</Link></li>
-                        <li><Link to="/Contacto" >Contacto</Link></li>
+                        <li><Link className="Link" to="/" >Inicio</Link></li>
+                        <li><Link className="Link" to="/Productos" >Productos</Link></li>
+                        <li><Link className="Link" to="/Ofertas" >Ofertas</Link></li>
+                        <li><Link className="Link" to="/Contacto" >Contacto</Link></li>
                     </ul>
                     {/* <Routes>
                         <Route path="/" element={App} />
