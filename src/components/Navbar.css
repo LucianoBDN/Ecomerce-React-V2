@@ -5,7 +5,10 @@
 
 }
 
-
+.Link {
+    text-decoration: none;
+    color: black;
+}
 /* ---------------------------------------------------------------------- */
 
 
@@ -124,6 +127,9 @@
 
 
 @media (min-width: 851px) {
+
+
+  
 
     * {
         align-items: center;
